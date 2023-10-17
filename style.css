@@ -11,11 +11,3 @@ body {
     background-image: url(Képek/legtobb_mentos_robbanas.jpg);
     background-size: 100%;
 }
-
-#felsorolas > li > a {
-    font-weight: 900;
-}
-
-#felsorolas > li > a:hover {
-    color: red;
-}
