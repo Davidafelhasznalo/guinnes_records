@@ -6,11 +6,45 @@
   <title>Guinness Rekordok</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
+  <style> 
+
+    #elso_div {
+      background-color: rgba(231, 120, 76, 0.6);
+      width: 80%;
+      text-align: justify;
+      padding: 25px;
+      margin: 25px auto;
+      font-weight: 600;
+      border-radius:50px; 
+    }
+
+    img {
+      border : 10px outset silver;
+    }
+
+    .cim {
+      font-style: oblique;
+    }
+    
+    .szoveg {
+      color: white;
+      font-style: oblique;
+    }
+
+    .lista {
+      font-style: oblique;
+      color: white;
+      border: 3px solid black;
+      border-radius: 25px;
+    }
+
+
+  </style>
 </head>
 <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light" id="egesz">
-        <a class="navbar-brand" id="fooldal" href="./index.html" style="">Főoldal</a>
+        <a class="navbar-brand" id="fooldal" href="./index.html">Főoldal</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,7 +77,46 @@
       </nav>
     </header>
     <main>
-
+      <div id="elso_div">
+        <h1 class="cim">Magyar Guinness rekordok</h1>
+        <p class="szoveg">Nagyon sok magyar Guinness rekord van, ebből én viszont csak ötöt szeretnék kiemelni amit érdekesnek találtam.</p>
+        <div>
+          <h4 class="cim">1. A világ legmagasabb legó tornya</h4>
+          <p class="szoveg">Ez egy 34 méteres modern obeliszk volt. Ezt a 34 méter magas tornyot több mint 450 000 legóból építették fel, a Szent István Bazilika előtt 2014-ben.</p>
+          <img src="./Képek/legotorony-rekord.jpg" alt="Legnagyobb legotorony" title="Legnagyobb legotorony" width="500" height="300">
+        </div>
+        <div>
+            <h4 class="cim">2. A leghosszabb fokhagymafüzér</h4>
+            <p class="szoveg">Ez a fokhagymafüzért a csongrádi településen készítették el 2006-ban. A korábbi rekord norvég volt, de ezt a magyarok majdnem megduplázták , 255 métert fűztek a makói asszonyok a nemzetközi makó fesztiválon. Ezt a füzért 6800 fokhagymából készítették.</p>
+            <img src="./Képek/leghosszabb_fokhagymafuzer.jpg" alt="Leghossazz Fokhagymafüzér" title="Leghosszabb Fokhagymafüzér" width="500" height="300" >
+          </div>
+          <div>
+              <h4 class="cim">3. Legtöbb harcművészeti dobás</h4>
+              <p class="szoveg">Ezt a rekordot Mezei Csaba és Farkas Zoltán állította fel 10 óra alatt. Ehhez a rekordhoz 57 603 dzsúdó dobást kellett végrehajtaniuk. Ezt 2003-ban nyerték el.</p>
+              <img src="./Képek/legtobb_judo_dobas.jpg" alt="Legtöbb dzsúdó dobás" title="Legtöbb dzsúdó dobás" width="500" height="300">
+          </div>
+          <div>
+              <h4 class="cim">4. Legtöbb rubik kocka kirakva egy nap alatt</h4>
+              <p class="szoveg">A nagykanizsai Baticz Milán ezt a rekordot 2008-ban állította fel. A rekordkísérlet során 24 óra alatt 4786-szor rakta ki a  különféle algoritmusok alapján összekevert Rubik-kockákat. Ezt azóta sem sikerület felülmúlnia.</p>
+              <img src="./Képek/legtobb_rubikkocka.jpg" alt="Legtöbb rubik kocka 24 óra alatt" title="Legtöbb rubik kocka 24 óra alatt" width="500" height="450">
+          </div>
+          <div>
+            <h4 class="cim">5.A világhírű rendszámtábla gyűjtemény</h4>
+            <p class="szoveg">Kenyeres Péter és Kenyeres Tamás 1990-ben rendszámtáblákat kezdett el gyűjteni.Ezzel a különös szenvedélyükkel 2011-ben bekerültek a Guinness Rekordok Könyvébe is. Ez a gyűjtemény 11 345 különféle rendszámtáblát tartalmaz, melyeket 133 országból szereztek be. Az igazoló oklevél Kecskemétre érkezett.</p>
+            <img src="./Képek/legtobb_rendszamtabla.jpg" alt="Legtöbb rendszámtábla" title="Legtöbb rendszámtábla" width="500" height="300">
+          </div>
+          <div>
+            <h4 class="cim">Még több érdekes magyar Guinness Rekord</h4>
+            <ul>
+              <li class="lista"> A világ legnagyobb képeslapja</li>
+              <li class="lista"> Egyedülálló Vármakett park - a Velencei-tó partján</li>
+              <li class="lista">A legtávolabbi kosárba dobás rekord </li>
+              <li class="lista">A legtöbb lassúzó pár egy helyen</li>
+              <li class="lista">A világ leggyorsabb kezű zongoraművésze</li>
+              <li class="lista"> A legnagyobb könyv a Földön - Aggteleken van kiállítva</li>             
+            </ul>
+          </div>    
+      </div>
     </main>
     <footer>
 
