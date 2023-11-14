@@ -25,7 +25,6 @@
 body {
     background-image: url(Képek/legtobb_mentos_robbanas.jpg);
     background-size: 100%;
-    background-attachment: fixed;
 }
 
 #egesz {
@@ -42,38 +41,4 @@ body {
     text-decoration: 5px rgb(117, 215, 240) underline;
     transition: 0.4 ease;
 }
-<<<<<<< HEAD
  
-=======
-
-#elso_div {
-    background-color: rgba(250, 128, 114, 0.6);
-    width: 80%;
-    text-align: justify;
-    padding: 25px;
-    margin: 25px auto;
-    font-weight: 600;
-    border-radius:10px; 
-  }
-  
-  #lista {
-    margin-left: 1%;
-  }
-
-  #elso_div {
-    background-color: rgba(250, 128, 114, 0.6);
-    width: 80%;
-    text-align: justify;
-    padding: 25px;
-    margin: 25px auto;
-    font-weight: 600;
-    border-radius:10px; 
-    border: 5px solid black;
-  }
-  
-  #lista {
-    margin-left: 1%;
-  }
-
-
->>>>>>> b06335e7d6ce773a944fa25b4032269fc1ea12f7
