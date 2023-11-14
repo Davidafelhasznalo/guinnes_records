@@ -41,3 +41,17 @@ body {
     text-decoration: 5px rgb(117, 215, 240) underline;
     transition: 0.4 ease;
 }
+
+#elso_div {
+    background-color: rgba(250, 128, 114, 0.6);
+    width: 80%;
+    text-align: justify;
+    padding: 25px;
+    margin: 25px auto;
+    font-weight: 600;
+    border-radius:10px; 
+  }
+  
+  #lista {
+    margin-left: 1%;
+  }
