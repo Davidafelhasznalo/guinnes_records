@@ -3,7 +3,7 @@ body {
     background-attachment: fixed;
 }
 
-#elso_div {
+.elso_div {
     background-color: rgb(111, 172, 226);
     border-radius: 10px;
     border: 4px solid red;
@@ -14,14 +14,14 @@ body {
     /* float: left; */
 }   
 
-#elso_div > img {
+.elso_div > img {
     width: 15%;
     height: 15%;
     border-radius: 5%;
     border: 3px solid rgb(90, 89, 92);
 }   
 
-#elso_div > section {
-    width: 80%;
+.elso_div > section {
+    width: 8    0%;
     float: left;
 }
