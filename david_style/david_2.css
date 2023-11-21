@@ -19,9 +19,11 @@ body {
     height: 15%;
     border-radius: 5%;
     border: 3px solid rgb(90, 89, 92);
+    margin-left: 25px;
+    margin-right: 25px;
 }   
 
 .elso_div > section {
-    width: 8    0%;
+    width: 80%;
     float: left;
-}
+}   
