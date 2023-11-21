@@ -1,0 +1,14 @@
+body {
+    background: url(../david_kepei/hatterkep.jpg);
+    background-attachment: fixed;
+}
+
+#elso_div {
+    background-color: rgb(111, 172, 226);
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+    padding: 15px;
+}   
