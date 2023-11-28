@@ -1,36 +1,8 @@
-/* main {
-  background-color: red;
-  margin-top: 2%;
-  margin-left: 50px;
-  margin-right: 50px;
-  border-radius: 10px;
-  padding: 10px;
-  height: 700px;
-}
-
-.david_div {
-  margin-bottom: 50px;
-}
-
-.david_div > img {
-  float: left;
-  width:  300px;
-  height: 500px;  
-  float: right;
-  object-fit: cover;
-} */
-
-
 body {
   background-image: url(../david_kepei/hatterkep_4.jpg);
   background-size: 100%;
   background-attachment: fixed;
   }
-
-
-
-
-
 
 
 .elso_div {
@@ -45,6 +17,7 @@ body {
     margin-bottom: 40px;
 }   
 
+
 .elso_div > img {
     width: 15%;
     height: 15%;
@@ -53,6 +26,20 @@ body {
     margin-left: 25px;
     margin-right: 25px;
 }   
+
+/* .elso_div > section > img {
+  width: 15%;
+  height: 15%;
+  border-radius: 5%;
+  border: 3px solid rgb(90, 89, 92);
+  margin-left: 25px;
+  margin-right: 25px;
+} */
+
+/* 
+.elso_div > section > img {
+  
+} */
 
 .elso_div > section > h2, p, ul {
     width: 80%;
@@ -65,10 +52,11 @@ body {
 }
 
 
-.elso_div:hover {
-  cursor: wait;
-} 
-
 p {
   text-align: justify;
+}
+
+ul {
+  float: left;
+  width: 80%;
 }
