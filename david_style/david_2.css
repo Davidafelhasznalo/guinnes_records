@@ -5,13 +5,17 @@ body {
 
 .divek {
     background-color: aqua;
+    background-color: black;
+    color: white;
+    font-weight: 900;
     margin-top: 1%;
     margin-bottom: 2%;
     margin-right: 2%;
     margin-left: 2%;
     text-align: justify;
     border-radius: 3%;
-    border: 4px rgb(96, 94, 94) solid;
+    /* border: 4px rgb(96, 94, 94) solid; */
+    border: 4px white solid;
 }
 
 .divek > div > img {
@@ -21,7 +25,7 @@ body {
     border-radius: 4%;
     border: 3px black solid;
     flex-wrap: wrap;
-    width: 40%;
+    width: 50%;
     
     display: block;
     margin-left: auto;
