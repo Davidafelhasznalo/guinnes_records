@@ -5,7 +5,7 @@ body {
   }
 
 
-.elso_div {
+#elso_div {
     background-color: rgb(111, 172, 226);
     /* background-color: rgb(88, 88, 84); */
     border-radius: 10px;
@@ -18,7 +18,7 @@ body {
 }   
 
 
-.elso_div > img {
+#elso_div > img {
     width: 15%;
     height: 15%;
     border-radius: 5%;
@@ -41,7 +41,7 @@ body {
   
 } */
 
-.elso_div > section > h2, p, ul {
+#elso_div > section > h2, p, ul {
     width: 80%;
     float: left;
 }   
