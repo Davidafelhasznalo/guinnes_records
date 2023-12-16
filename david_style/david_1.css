@@ -1,25 +1,35 @@
+@font-face {
+  font-family: "TEKO";
+  src: url(../david_style/elso_b_tipus/Teko-VariableFont_wght.ttf);
+}
+
 body {
   background-image: url(../david_kepei/hatterkepek_valogatas/fenymosas.jpg);
   background-size: 100%;
   background-attachment: fixed;
   }
 
+main {
+  font-family: "TEKO";
+}
 
 .elso_div {
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    border: 4px solid rgb(0, 0, 0);
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 35px;
-    padding: 15px;
-    margin-bottom: 40px;
-    font-size: 28px;
-    font-weight: 900;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: 4px solid rgb(0, 0, 0);
+  margin-top: 35px;
+  padding: 15px;
+  font-size: 28px;
+  font-weight: 900;
 
-
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
 }   
 
+.vege_margin {
+  margin-bottom: 35px;
+}   
 
 img {
   margin-right: 2% auto;
@@ -32,11 +42,6 @@ img {
   border: 3px solid rgb(90, 89, 92);
   margin-left: 25px;
   margin-right: 25px;
-} */
-
-/* 
-.elso_div > section > img {
-  
 } */
 
 ul > li {
@@ -53,49 +58,29 @@ ul > li {
     float: left;
 }   */
 
-/* .elso_div > section > ul > li {
+.elso_div > section > ul > li {
   width: 60%;
   float: left;
 }  
 
-ul {
-  width: 60%;
-  float: left;
-} */
-
-
-p {
-  text-align: justify;
-}
-
 .kepek_1 {
-  width: 30%;
+  /* width: 30%; */
+  width: 25%;
   float: right;
   border-radius: 20px;
 
   border-radius: 5%;
   border: 3px solid rgb(90, 89, 92);
-  margin-left: 25px;
-  margin-right: 25px;
-}
-
-/* .szelesseg {
-  float: left;
-  width: 65%;
-}
-
-
-ul {
-  float: left;
-  width: 80%;
-} */
-
-
+}  
+  
 
 @media only screen and (min-width: 1600px) {
   #kardnyeles, #lotito {
-    width: 30%;
+    /* width: 30%; */
+    width: 25%;
     margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
 
     flex-wrap: wrap;
     
@@ -112,12 +97,13 @@ ul {
   
   ul {
     float: left;
-    width: 80%;
+    width: 65%;
   }
 }
 
 @media only screen and (max-width: 1599px) {
   #kardnyeles, #lotito {
+    float: left;
     /* width: 15%; */
     /* float: left; */
     /* align-items: center;
@@ -130,12 +116,16 @@ ul {
   }
 
   .szelesseg {
-    float: left;
     width: 100%;
+    float: left;
   }
   
   ul {
     float: left;
-    width: 80%;
+    width: 100%;
   }
-}   
+
+  #big_mac {
+    float: left;
+  }
+}

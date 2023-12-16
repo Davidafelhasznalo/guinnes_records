@@ -1,6 +1,15 @@
+@font-face {
+    font-family: "RALEWAY";
+    src: url(../david_style/masodik_b_tipus/Raleway-VariableFont_wght.ttf);
+}
+
 body { 
     background: url(../david_kepei/hatterkepek_valogatas/tejut_hull_hd.jpg);
     background-attachment: fixed;
+}
+
+main {
+    font-family: "RALEWAY";
 }
 
 .divek {
