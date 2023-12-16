@@ -23,11 +23,32 @@ body {
     margin-right: 5%;
     margin-bottom: 2%;
     border-radius: 4%;
-    border: 3px black solid;
+    border: 3px white solid;
     flex-wrap: wrap;
     width: 50%;
     
     display: block;
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
 }
+
+#buvar {
+    width: 40%;
+    margin-bottom: 5%;
+}
+
+
+@media only screen and (min-width: 1545px) {
+    .kep_kulonleges {
+        margin-top: 15%;
+        margin-bottom: 5%;
+    }
+  }
+
+  @media only screen and (max-width: 1544px) {
+    .kep_kulonleges {
+        margin-top: none;
+        margin-bottom: none;
+    }
+  }
