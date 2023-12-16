@@ -6,10 +6,17 @@
 body { 
     background: url(../david_kepei/hatterkepek_valogatas/tejut_hull_hd.jpg);
     background-attachment: fixed;
+    /* font-family: "TEKO";   ha a többiek is lecserélik csak akkor kell !!!! */
 }
 
 main {
     font-family: "TEKO";
+    font-size: 22px;
+}
+
+h2 {
+    margin-top: 5px;
+    font-size: 40px;
 }
 
 .divek {
