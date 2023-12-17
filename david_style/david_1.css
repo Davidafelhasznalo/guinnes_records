@@ -5,6 +5,8 @@
 
 body {
   background-image: url(../david_kepei/hatterkepek_valogatas/fenymosas.jpg);
+  /* background-image: url(../david_kepei/hatterkepek_valogatas/erdo_full_hd.jpg); */
+  /* background-image: url(../david_kepei/hatterkepek_valogatas/mountain_2.jpg); */
   background-size: 100%;
   background-attachment: fixed;
   /* font-family: "TEKO", cursive;     ha a többiek is lecserélik csak akkor kell !!!! */
@@ -47,9 +49,8 @@ img {
   list-style: square;
 }
 
-
 .elso_div > section > ul > li {
-  width: 60%;
+  width: 90%;
   float: left;
 }  
 
@@ -57,6 +58,7 @@ img {
   /* width: 30%; */
   width: 25%;
   float: right;
+  margin-right: 10%;
   border-radius: 20px;
 
   border-radius: 5%;
@@ -69,15 +71,11 @@ img {
     /* width: 30%; */
     width: 25%;
     margin-top: 3%;
-    margin-left: auto;
-    margin-right: auto;
 
     flex-wrap: wrap;
-    
     display: block;
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
   }
 
   .szelesseg {
@@ -96,13 +94,6 @@ img {
     float: left;
     /* width: 15%; */
     /* float: left; */
-    /* align-items: center;
-    flex-wrap: wrap;
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center; */
   }
 
   .szelesseg {
@@ -146,10 +137,11 @@ img {
   background-color: rgb(0, 0, 0);
   margin-bottom: 2%;
   border-radius: 20px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 575px) {
   .linkes {
-    width: 84%;
+    width: 40%;
   }
 }

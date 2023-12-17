@@ -34,3 +34,23 @@ main {
     cursor: default;
     transition: 0.5s ease;   
 }
+
+#gombos {
+    height: 60px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#gomb_2 {
+    margin-left: 2%;
+}
+
+button {
+    font-weight: 900;
+    background-color: black;
+}
+
+#gombos > button > a {
+    text-decoration: none;
+    color: white;
+}
