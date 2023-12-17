@@ -137,3 +137,30 @@ img {
     float: left;
   }
 }
+
+
+
+
+
+
+
+
+.elso_div > a {
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.elso_div > a:hover {
+  text-decoration: none;
+  color: red;
+  transition: 0.3s ease;
+}
+
+.linkes {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
