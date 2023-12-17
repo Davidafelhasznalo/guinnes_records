@@ -54,3 +54,16 @@ button {
     text-decoration: none;
     color: white;
 }
+
+#gombos > button > a:hover {
+    color: white;
+}
+
+button {
+    font-weight: 900;
+    background-color: black;
+}
+
+#gombos {
+    background-color: rgb(255, 136, 0);
+}
