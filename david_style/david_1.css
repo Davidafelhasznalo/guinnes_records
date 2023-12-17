@@ -53,6 +53,7 @@ img {
 
 ul > li {
   color: red;
+  list-style: square;
 }
 
 /* #kardnyeles > h2, p, ul {
