@@ -78,8 +78,12 @@ table {
 
 td {
     border: 2px black solid;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 th {
     border: 2px black solid;
+    padding-left: 5px;
+    padding-right: 5px;
 }
