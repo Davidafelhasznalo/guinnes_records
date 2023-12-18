@@ -42,10 +42,10 @@ h1 {
     background-color: rgb(4, 26, 193);
     border-radius: 20px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 30px;
     padding-top: 10px;
     text-align: justify;
-    border: 5px black dashed;
+    border: 5px rgb(255, 255, 255) dashed;
     color: white;
     margin-bottom: 4%;
 }
@@ -59,6 +59,10 @@ h1 {
     margin-bottom: 20px;
 }
 
-#nagy {
 
+@media only screen and (max-width: 575px){
+    .resztvevok {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
 }
