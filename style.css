@@ -22,7 +22,8 @@
 body {
     background-size: 100%;
     background-color: black;
-    font-family: "TEKO", cursive;
+    font-size: 22px;
+    /* font-family: "TEKO", cursive; */
 }
 
 #egesz {
@@ -32,6 +33,7 @@ body {
 #fooldal {
     color: rgb(255, 255, 255);
     font-weight: 900;
+    font-size: 26px;
 }
 
 #fooldal:hover {
