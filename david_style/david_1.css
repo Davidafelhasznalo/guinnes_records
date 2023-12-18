@@ -143,6 +143,6 @@ span {
 @media only screen and (max-width: 1750px) {
   body {
     background-image: none;
-    background-color: red;
+    background-color: rgb(4, 15, 163);
   }
 }
