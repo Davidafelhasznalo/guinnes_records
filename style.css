@@ -47,4 +47,18 @@ h1 {
     text-align: justify;
     border: 5px black dashed;
     color: white;
+    margin-bottom: 4%;
+}
+
+.resztvevok {
+    background-color: white;
+    margin: auto;    
+    border-radius: 20px;
+    padding-top: 8px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#nagy {
+
 }
