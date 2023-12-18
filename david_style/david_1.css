@@ -5,8 +5,6 @@
 
 body {
   background-image: url(../david_kepei/hatterkepek_valogatas/fenymosas.jpg);
-  /* background-image: url(../david_kepei/hatterkepek_valogatas/erdo_full_hd.jpg); */
-  /* background-image: url(../david_kepei/hatterkepek_valogatas/mountain_2.jpg); */
   background-size: 100%;
   background-attachment: fixed;
   /* font-family: "TEKO", cursive;     ha a többiek is lecserélik csak akkor kell !!!! */
@@ -56,20 +54,15 @@ img {
 }  
 
 .kepek_1 {
-  /* width: 30%; */
   width: 25%;
-  float: right;
-  margin-right: 10%;
+  display: block;
+  margin: 0 auto;
   border-radius: 20px;
-
-  border-radius: 5%;
   border: 3px solid rgb(90, 89, 92);
-}  
-  
+}
 
 @media only screen and (min-width: 1600px) {
   #kardnyeles, #lotito {
-    /* width: 30%; */
     width: 25%;
     margin-top: 3%;
 
@@ -111,10 +104,6 @@ img {
     float: left;
   }
 }
-
-
-
-
 
 
 /* Az Űrlap Div Stílusa a david_1 oldalhoz */
