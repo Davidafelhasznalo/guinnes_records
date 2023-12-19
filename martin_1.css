@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "teka";
+    src: url(../guinnes_records/david_style/elso_b_tipus/Teko-VariableFont_wght.ttf);
+  }
+  body {
+    background-image: url(Képek/martin_1hatter.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: "teka";
+  }
+  #elso_div {
+    background-color: rgba(231, 120, 76, 0.6);
+    width: 80%;
+    text-align: justify;
+    padding: 25px;
+    margin: 25px auto;
+    font-weight: 600;
+    border-radius:50px; 
+  }
+
+  img {
+    border : 10px outset silver;
+  }
+
+  .cim {
+    font-style: oblique;
+    color:black;
+    font-size: xx-large;
+  }
+  
+  .szoveg {
+    color: white;
+    font-style: oblique;
+    font-size: larger;
+  }
+
+  .responsive {
+    width: 100%;
+height: auto;
+max-width: 500px;
+max-height: 450px;
+  }
