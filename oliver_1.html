@@ -6,6 +6,69 @@
   <title>Guinness Rekordok</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
+  <style>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #242424;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo {
+    float: left;
+}
+  
+.logo img {
+    max-height: 70px; 
+}
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.inductee {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    max-width: 300px; 
+    width: 100%;
+}
+
+.inductee img {
+  max-width: 100%;
+  border-radius: 64px; 
+  transition: transform 0.7s ease-in-out; 
+}
+
+.inductee:hover {
+  transform: scale(1.05); 
+}
+
+.inductee:hover img {
+  transform: scale(0.95); 
+}
+
+@media screen and (min-width: 1200px) {
+  .inductee {
+    max-width: calc(20% - 20px);
+  }
+}
+
+  </style>
 </head>
 <body>
     <header>
@@ -44,10 +107,72 @@
     </header>
     <main>
       
-    </main>
-    <footer>
+      <body>
 
-    </footer>
+          <div class="logo">
+              <img src="https://www.guinnessworldrecords.com/images/logo.png" alt="Guinness World Records Logo">
+          </div>
+          <h1>GWR 2023 Dícsőségcsarnok</h1>
+        </header>
+        
+        <main>
+          <section class="inductee">
+            <img src="https://www.guinnessworldrecords.com/Images/Rumeysa-smiling-with-white-sweater_tcm25-717154.jpg" alt="Inductee 1">
+            <h2>Rumeysa Gelgi</h2>
+            <p>A legmagasabb élő nő</p>
+            <p>ide írd a mondatjaid</p>
+          </section>
+      
+          <section class="inductee">
+            <img src="https://www.guinnessworldrecords.com/Images/wally-funk-dressed-in-a-space-suit_tcm25-717155.jpg" alt="Inductee 2">
+            <h2>Wally Funk</h2>
+            <p>A legidősebb nő az űrben</p>
+            <p>ide írd a mondatjaid</p>
+          </section>
+      
+          <section class="inductee">
+              <img src="https://www.guinnessworldrecords.com/Images/ronaldo-pointing-smiling_tcm25-717157.jpg" alt="Inductee 3">
+              <h2>Cristiano Ronaldo</h2>
+              <p>A legtöbb gól a férfi válogatottban</p>
+              <p>ide írd a mondatjaid</p>
+            </section>
+        
+          <section class="inductee">
+              <img src="https://www.guinnessworldrecords.com/Images/Ellie-swimming-in-pool_tcm25-717160.jpg" alt="Inductee 4">
+              <h2>Ellie Simmonds</h2>
+              <p>A legfiatalabb MBE-díjas</p>
+              <p>ide írd a mondatjaid</p>
+          </section>
+      
+          <section class="inductee">
+              <img src="https://www.guinnessworldrecords.com/Images/David-showing-arm_tcm25-717169.jpg" alt="Inductee 5">
+              <h2>David Aguilar</h2>
+              <p>Az első működőképes LEGO protézis kar</p>
+              <p>ide írd a mondatjaid</p>
+            </section>
+        
+            <section class="inductee">
+              <img src="https://www.guinnessworldrecords.com/Images/Max-park-solving-a-rubiks-cube_tcm25-717165.jpg" alt="Inductee 6">
+              <h2>Max Park</h2>
+              <p>A Cubing világ csodája</p>
+              <p>ide írd a mondatjaid</p>
+            </section>
+        
+            <section class="inductee">
+                <img src="https://www.guinnessworldrecords.com/Images/beyonce-holding-grammy-carousel_tcm25-717313.jpg" alt="Inductee 7">
+                <h2>Beyoncé</h2>
+                <p>A femme pop királynője</p>
+                <p>ide írd a mondatjaid</p>
+              </section>
+          
+            <section class="inductee">
+                <img src="https://www.guinnessworldrecords.com/Images/shirtless-lucky-diamond-rich-in-a-red-suit-for-homepage_tcm25-717696.jpg" alt="Inductee 8">
+                <h2>Lucky Diamond Rich</h2>
+                <p>A legtetováltabb ember (férfi)</p>
+                <p>ide írd a mondatjaid</p>
+            </section>
+        
+        </main>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
