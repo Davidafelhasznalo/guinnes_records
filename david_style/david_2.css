@@ -6,7 +6,7 @@
 body { 
     background: url(../david_kepei/hatterkepek_valogatas/tejut_hull_hd.jpg);
     background-attachment: fixed;
-    /* font-family: "TEKO", cursive;   ha a többiek is lecserélik csak akkor kell !!!! */
+    font-family: "TEKO", cursive;
 }
 
 main {
